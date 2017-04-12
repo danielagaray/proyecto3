@@ -1,0 +1,84 @@
+/*
+1. ORDEN
+2. ESPECIFICIDAD
+3. IMPORTANCIA 
+*/
+body{
+	/*font-size: 10px;*/
+
+}
+
+header{
+	background-color:#DCCCFF ;	
+}
+
+h1{
+	color: #F6F2FF;
+	font-family: "Cabin", sans-serif;
+	font-size: 50px;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+ul{
+	list-style: none;
+}
+
+.subtitulo{
+	color:#F6F2FF;
+	/*background: rgba(213,80,45, 0.3);*/
+	font-family: "Cabin", sans-serif; /* el sans serif es para que levante otra si falla la primera*/
+	font-weight: 500; /* en google fonts se maneja por valores*/
+	font-style: italic; /*tiene que estar seleccionado en gfonts para que lo puedas usar*/
+	font-size: 2em; /* 2em duplica 10px, es respecto a un valor padre*/
+	text-transform: uppercase;
+	text-shadow: 10px 10px 5px grey; /*sombra: offset x, offset y, blureado, color*/
+}
+
+.unlink{
+	color: #E07BE0;
+	font-family: "Cabin", sans-serif;
+	text-decoration: none;
+}
+
+.icono{
+	font-size: 30px;
+}
+
+.facebook{
+	color:#3b5998;
+}
+
+.twitter{
+	color:#55acee;
+}
+
+.linkedin{
+	color:#007bb5;
+}
+
+.pinterest{
+	color:#cb2027;
+}
+
+h2{
+	color:magenta;
+}
+.p1{
+	color: #932F6D;
+	font-family: "Hind", sans-serif;
+
+}
+
+
+.p2{
+	color:#420039;
+	font-family: "Hind", sans-serif;
+	letter-spacing: 3px;
+	line-height: 1.6;
+}
+
+.p3{
+	color: #E07BE0;
+	font-family: "Hind", sans-serif;
+}
